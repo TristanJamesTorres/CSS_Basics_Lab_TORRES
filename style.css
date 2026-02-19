@@ -1,0 +1,48 @@
+html {
+    height: 100%; 
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+nav {
+    background-color: #261500;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.5s ease-in-out; 
+}
+nav a:hover {
+    color: yellow;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+}
+.gallery {
+    height: 60vh;
+    text-align: center;
+}
+.gallery img {
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 5px 10px 15px gray;
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
